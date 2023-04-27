@@ -1,0 +1,68 @@
+.form-container {
+	border-radius: 0.4rem;
+}
+
+.submit-btn {
+	padding: 0.6rem;
+	border-radius: 0.4rem;
+	background-color: var(--very-dark);
+	color: var(--color-white);
+	width: 420px;
+}
+
+.submit-btn:hover,
+.submit-btn:focus {
+	background-color: hsl(249, 99%, 64%);
+	cursor: pointer;
+}
+
+.form {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 1rem;
+}
+
+.form input {
+	max-width: 420px;
+	border: var(--light-grayish) 1px solid;
+	padding: 0.4rem;
+	border-radius: 0.4rem;
+}
+
+.form input:focus,
+.form input:active {
+	border: var(--dark-grayish) 1px solid;
+}
+
+.input-group {
+	display: flex;
+	flex-direction: column;
+}
+
+.exp-date {
+	display: flex;
+	justify-content: space-between;
+}
+
+.exp-date input {
+	max-width: 75px;
+}
+
+.expy-date {
+	display: flex;
+	flex-direction: column;
+}
+
+.dates {
+	display: flex;
+	justify-content: space-between;
+}
+
+.cvv-block {
+	display: flex;
+	flex-direction: column;
+}
+
+.cvv-block input {
+	max-width: 200px;
+}
